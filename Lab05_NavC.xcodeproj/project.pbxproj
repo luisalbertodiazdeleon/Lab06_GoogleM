@@ -46,6 +46,9 @@
 		48A01B2D1D260BB5008B8550 /* GeneralBravo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48A01B0F1D260BB5008B8550 /* GeneralBravo.jpg */; };
 		48A01B2E1D260BB5008B8550 /* SantaCatarina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48A01B101D260BB5008B8550 /* SantaCatarina.jpg */; };
 		48A01B2F1D260BB5008B8550 /* Villaldama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 48A01B111D260BB5008B8550 /* Villaldama.jpg */; };
+		48A01B321D261BB9008B8550 /* SecondPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A01B311D261BB9008B8550 /* SecondPage.m */; };
+		48A01B361D26249F008B8550 /* CellSecondP.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A01B341D26249F008B8550 /* CellSecondP.m */; };
+		48A01B371D26249F008B8550 /* CellSecondP.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48A01B351D26249F008B8550 /* CellSecondP.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +96,11 @@
 		48A01B0F1D260BB5008B8550 /* GeneralBravo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GeneralBravo.jpg; sourceTree = "<group>"; };
 		48A01B101D260BB5008B8550 /* SantaCatarina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SantaCatarina.jpg; sourceTree = "<group>"; };
 		48A01B111D260BB5008B8550 /* Villaldama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Villaldama.jpg; sourceTree = "<group>"; };
+		48A01B301D261BB9008B8550 /* SecondPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPage.h; sourceTree = "<group>"; };
+		48A01B311D261BB9008B8550 /* SecondPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPage.m; sourceTree = "<group>"; };
+		48A01B331D26249F008B8550 /* CellSecondP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellSecondP.h; sourceTree = "<group>"; };
+		48A01B341D26249F008B8550 /* CellSecondP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellSecondP.m; sourceTree = "<group>"; };
+		48A01B351D26249F008B8550 /* CellSecondP.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellSecondP.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +160,8 @@
 			children = (
 				48A01ACD1D25E54B008B8550 /* Home.h */,
 				48A01ACE1D25E54B008B8550 /* Home.m */,
+				48A01B301D261BB9008B8550 /* SecondPage.h */,
+				48A01B311D261BB9008B8550 /* SecondPage.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -171,6 +181,9 @@
 				48A01AE41D25F72D008B8550 /* CellHome.h */,
 				48A01AE51D25F72D008B8550 /* CellHome.m */,
 				48A01AE61D25F72D008B8550 /* CellHome.xib */,
+				48A01B331D26249F008B8550 /* CellSecondP.h */,
+				48A01B341D26249F008B8550 /* CellSecondP.m */,
+				48A01B351D26249F008B8550 /* CellSecondP.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -366,6 +379,7 @@
 				48A01B211D260BB5008B8550 /* mazamitla.gif in Resources */,
 				48A01B1C1D260BB5008B8550 /* Salamancapng.png in Resources */,
 				48A01B131D260BB5008B8550 /* asientos.jpg in Resources */,
+				48A01B371D26249F008B8550 /* CellSecondP.xib in Resources */,
 				48A01B271D260BB5008B8550 /* Emiliano_Zapata.jpg in Resources */,
 				48A01B1F1D260BB5008B8550 /* encarnacion_de_diaz.jpg in Resources */,
 				48A01B1D1D260BB5008B8550 /* Valle_de_Santiago.png in Resources */,
@@ -397,6 +411,8 @@
 				48A01ACC1D25E54B008B8550 /* AppDelegate.m in Sources */,
 				48A01AE71D25F72D008B8550 /* CellHome.m in Sources */,
 				48A01AD51D25E54B008B8550 /* Lab05_NavC.xcdatamodeld in Sources */,
+				48A01B361D26249F008B8550 /* CellSecondP.m in Sources */,
+				48A01B321D261BB9008B8550 /* SecondPage.m in Sources */,
 				48A01AC91D25E54B008B8550 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

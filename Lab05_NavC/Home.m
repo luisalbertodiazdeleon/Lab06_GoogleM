@@ -62,7 +62,38 @@
     return cell;
 }
 //-------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    //self.t        = self.estadosArray[indexPath.row];
+   // self.stDescriptionSelected  = self.destinationDescriptions[indexPath.row];
+   // self.stPhotoSelected        = self.destinationPhotos[indexPath.row];
+    [self performSegueWithIdentifier:@"SecondPage" sender:self];
+}
+/**********************************************************************************************/
+#pragma mark - Navigation
+/**********************************************************************************************/
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
+    //if ([segue.destinationViewController isKindOfClass:[DestinationDetails class]]) {
+      //  DestinationDetails *destination     = [segue destinationViewController];
+       // destination.destinationTitle        = self.stTitleSelected;
+       // destination.destinationDescription  = self.stDescriptionSelected;
+       // destination.destinationPhoto        = self.stPhotoSelected;
+        
+   // }
 }
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondPage.h
 //  Lab05_NavC
 //
 //  Created by Luis Diaz on 6/30/16.
@@ -7,11 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CellHome.h"
-#import "SecondPage.h"
-
-@interface Home : UIViewController
-
+#import "CellSecondP.h"
+@interface SecondPage : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *test;
 
 @end
-

@@ -9,7 +9,8 @@
 #import "Home.h"
 
 @interface Home ()
-@property NSMutableArray *homeArray;
+@property NSMutableArray *estadosArray;
+@property NSMutableArray *escudosArray;
 
 @end
 
@@ -28,7 +29,8 @@
 }
 //-------------------------------------------------------------------------------
 - (void)initController {
-    self.homeArray   = [[NSMutableArray alloc] initWithObjects: @"Capitán América", @"Iron Man", @"Viuda Negra", @"Hulk", @"Thor", @"Hombre Araña", nil];
+    self.estadosArray   = [[NSMutableArray alloc] initWithObjects: @"Aguascalientes", @"Guanajuato", @"Jalisco", @"Morelos", @"Nuevo Leon", nil];
+    self.escudosArray   = [[NSMutableArray alloc] initWithObjects: @"ags.png", @"guan.jpg", @"jal.jpg", @"mor.jpg", @"NL.jpg", nil];
 }
 /**********************************************************************************************/
 #pragma mark - Table source and delegate methods
@@ -38,11 +40,11 @@
 }
 //-------------------------------------------------------------------------------
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.homeArray.count;
+    return self.estadosArray.count;
 }
 //-------------------------------------------------------------------------------
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 120;
+    return 180;
 }
 //-------------------------------------------------------------------------------
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -54,8 +56,8 @@
         cell = [tableView dequeueReusableCellWithIdentifier:@"CellHome"];
     }
     //Fill cell with info from arrays
-    //cell.lblName.text       = self.avengerNames[indexPath.row];
-    //cell.imgAvenger.image   = [UIImage imageNamed:self.avengerImgs[indexPath.row]];
+    cell.lblDD.text       = self.estadosArray[indexPath.row];
+    cell.ImagD.image   = [UIImage imageNamed:self.escudosArray[indexPath.row]];
     
     return cell;
 }

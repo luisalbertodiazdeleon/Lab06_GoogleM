@@ -12,6 +12,9 @@
 @property NSMutableArray *municipiosArray;
 @property NSMutableArray *escudos_mArray;
 
+@property int *infoMun;
+@property int *infoEst;
+
 @end
 
 @implementation SecondPage
@@ -28,8 +31,36 @@
 }
 
 - (void)initController {
-    self.municipiosArray   = [[NSMutableArray alloc] initWithObjects: @"Aguascalientes2", @"Guanajuato2", @"Jalisco2", @"Morelos2", @"Nuevo Leon2", nil];
-    self.escudos_mArray   = [[NSMutableArray alloc] initWithObjects: @"ags.png", @"guan.jpg", @"jal.jpg", @"mor.jpg", @"NL.jpg", nil];
+    self.infoEst = (NSInteger)self.infoFromHome;
+    
+    if((int)self.infoFromHome==0)
+    {
+        self.municipiosArray   = [[NSMutableArray alloc] initWithObjects: @"Asientos", @"Calvillo", @"Jesus Maria", @"Pabellon", @"Rincon de Romos", nil];
+        self.escudos_mArray   = [[NSMutableArray alloc] initWithObjects: @"asientos.jpg", @"Calvillo.png", @"jesusMaria.jpg.gif", @"pabellon.jpg", @"rincondeRomos.jpg", nil];
+        
+    }
+    else if((int)self.infoFromHome==1)
+    {
+        self.municipiosArray   = [[NSMutableArray alloc] initWithObjects: @"Guanajuato", @"Leon", @"Moroleon", @"Salamanca", @"Valle de Santiago", nil];
+        self.escudos_mArray   = [[NSMutableArray alloc] initWithObjects: @"Guanajuato.png", @"leonpng.png", @"moroleonpng.png", @"Salamancapng.png", @"Valle_de_Santiago.png", nil];
+    }
+    else if((int)self.infoFromHome==2)
+    {
+        self.municipiosArray   = [[NSMutableArray alloc] initWithObjects: @"Encarn. de Diaz", @"Jalostotitlan", @"Mazamitla", @"San J. de los L.", @"Tequila", nil];
+        self.escudos_mArray   = [[NSMutableArray alloc] initWithObjects: @"encarnacion_de_diaz.jpg", @"jalostotitlan.jpg", @"mazamitla.gif", @"sanjuandeloslagos.png", @"tequila.jpg", nil];
+    }
+    else if((int)self.infoFromHome==3)
+    {
+        self.municipiosArray   = [[NSMutableArray alloc] initWithObjects: @"Axochiapan", @"Cuautla", @"Emiliano Zapata", @"Temixco", @"Totolapan", nil];
+        self.escudos_mArray   = [[NSMutableArray alloc] initWithObjects: @"Axochiapan.jpg", @"Cuautla.png", @"Emiliano_Zapata.jpg", @"Temixco.jpg", @"Totolapan.png", nil];
+    }
+    else if((int)self.infoFromHome==4)
+    {
+        self.municipiosArray   = [[NSMutableArray alloc] initWithObjects: @"Abasolo", @"Allende", @"General Bravo", @"Santa Catarina", @"Villaldama", nil];
+        self.escudos_mArray   = [[NSMutableArray alloc] initWithObjects: @"abasolo.jpg", @"allende.jpg", @"GeneralBravo.jpg", @"SantaCatarina.jpg", @"Villaldama.jpg", nil];
+    }
+    
+    
 }
 //------------------------------------------------------------------------------------------
 
@@ -67,12 +98,23 @@
 //-------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    //self.t        = self.estadosArray[indexPath.row];
+    self.infoMun        = indexPath.row;
     // self.stDescriptionSelected  = self.destinationDescriptions[indexPath.row];
     // self.stPhotoSelected        = self.destinationPhotos[indexPath.row];
-//    [self performSegueWithIdentifier:@"SecondPage" sender:self];
+   [self performSegueWithIdentifier:@"ThirdPage" sender:self];
 }
 
-
+/**********************************************************************************************/
+#pragma mark - Navigation
+/**********************************************************************************************/
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    if ([segue.destinationViewController isKindOfClass:[ThirdPage class]]) {
+        ThirdPage *tp     = [segue destinationViewController];
+        tp.infoMunicipio     = self.infoMun;
+        tp.infoEstado = self.infoEst;
+        
+    }
+}
 
 @end

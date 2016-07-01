@@ -49,6 +49,7 @@
 		48A01B321D261BB9008B8550 /* SecondPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A01B311D261BB9008B8550 /* SecondPage.m */; };
 		48A01B361D26249F008B8550 /* CellSecondP.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A01B341D26249F008B8550 /* CellSecondP.m */; };
 		48A01B371D26249F008B8550 /* CellSecondP.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48A01B351D26249F008B8550 /* CellSecondP.xib */; };
+		48A01B3A1D2638D6008B8550 /* ThirdPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A01B391D2638D6008B8550 /* ThirdPage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +102,8 @@
 		48A01B331D26249F008B8550 /* CellSecondP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellSecondP.h; sourceTree = "<group>"; };
 		48A01B341D26249F008B8550 /* CellSecondP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellSecondP.m; sourceTree = "<group>"; };
 		48A01B351D26249F008B8550 /* CellSecondP.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellSecondP.xib; sourceTree = "<group>"; };
+		48A01B381D2638D6008B8550 /* ThirdPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdPage.h; sourceTree = "<group>"; };
+		48A01B391D2638D6008B8550 /* ThirdPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdPage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,8 @@
 				48A01ACE1D25E54B008B8550 /* Home.m */,
 				48A01B301D261BB9008B8550 /* SecondPage.h */,
 				48A01B311D261BB9008B8550 /* SecondPage.m */,
+				48A01B381D2638D6008B8550 /* ThirdPage.h */,
+				48A01B391D2638D6008B8550 /* ThirdPage.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -413,6 +418,7 @@
 				48A01AD51D25E54B008B8550 /* Lab05_NavC.xcdatamodeld in Sources */,
 				48A01B361D26249F008B8550 /* CellSecondP.m in Sources */,
 				48A01B321D261BB9008B8550 /* SecondPage.m in Sources */,
+				48A01B3A1D2638D6008B8550 /* ThirdPage.m in Sources */,
 				48A01AC91D25E54B008B8550 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

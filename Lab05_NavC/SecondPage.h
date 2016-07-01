@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "CellSecondP.h"
+#import "ThirdPage.h"
+
+
 @interface SecondPage : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *test;
+
+@property int *infoFromHome;
+
+
 
 @end

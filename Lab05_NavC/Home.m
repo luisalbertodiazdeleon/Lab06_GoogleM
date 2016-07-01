@@ -12,6 +12,8 @@
 @property NSMutableArray *estadosArray;
 @property NSMutableArray *escudosArray;
 
+@property int *infotest;
+
 @end
 
 @implementation Home
@@ -64,7 +66,7 @@
 //-------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    //self.t        = self.estadosArray[indexPath.row];
+    self.infotest        = indexPath.row;
    // self.stDescriptionSelected  = self.destinationDescriptions[indexPath.row];
    // self.stPhotoSelected        = self.destinationPhotos[indexPath.row];
     [self performSegueWithIdentifier:@"SecondPage" sender:self];
@@ -74,14 +76,15 @@
 /**********************************************************************************************/
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
-    //if ([segue.destinationViewController isKindOfClass:[DestinationDetails class]]) {
-      //  DestinationDetails *destination     = [segue destinationViewController];
-       // destination.destinationTitle        = self.stTitleSelected;
+    if ([segue.destinationViewController isKindOfClass:[SecondPage class]]) {
+        SecondPage *sp     = [segue destinationViewController];
+       sp.infoFromHome     = self.infotest;
        // destination.destinationDescription  = self.stDescriptionSelected;
        // destination.destinationPhoto        = self.stPhotoSelected;
         
-   // }
+    }
 }
+    
 @end
 
 

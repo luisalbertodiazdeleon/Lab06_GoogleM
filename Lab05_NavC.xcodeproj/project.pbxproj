@@ -14,6 +14,8 @@
 		48A01AD51D25E54B008B8550 /* Lab05_NavC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48A01AD31D25E54B008B8550 /* Lab05_NavC.xcdatamodeld */; };
 		48A01AD71D25E54B008B8550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A01AD61D25E54B008B8550 /* Assets.xcassets */; };
 		48A01ADA1D25E54B008B8550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A01AD81D25E54B008B8550 /* LaunchScreen.storyboard */; };
+		48A01AE71D25F72D008B8550 /* CellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A01AE51D25F72D008B8550 /* CellHome.m */; };
+		48A01AE81D25F72D008B8550 /* CellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48A01AE61D25F72D008B8550 /* CellHome.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		48A01AD61D25E54B008B8550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48A01AD91D25E54B008B8550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48A01ADB1D25E54B008B8550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A01AE41D25F72D008B8550 /* CellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellHome.h; sourceTree = "<group>"; };
+		48A01AE51D25F72D008B8550 /* CellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellHome.m; sourceTree = "<group>"; };
+		48A01AE61D25F72D008B8550 /* CellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellHome.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,7 @@
 			children = (
 				48A01AE21D25E5AB008B8550 /* Main */,
 				48A01AE11D25E5A2008B8550 /* Controllers */,
+				48A01AE31D25F665008B8550 /* Cells */,
 				48A01AD01D25E54B008B8550 /* Main.storyboard */,
 				48A01AD61D25E54B008B8550 /* Assets.xcassets */,
 				48A01AD81D25E54B008B8550 /* LaunchScreen.storyboard */,
@@ -96,6 +102,16 @@
 				48A01ACB1D25E54B008B8550 /* AppDelegate.m */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		48A01AE31D25F665008B8550 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				48A01AE41D25F72D008B8550 /* CellHome.h */,
+				48A01AE51D25F72D008B8550 /* CellHome.m */,
+				48A01AE61D25F72D008B8550 /* CellHome.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +173,7 @@
 			files = (
 				48A01ADA1D25E54B008B8550 /* LaunchScreen.storyboard in Resources */,
 				48A01AD71D25E54B008B8550 /* Assets.xcassets in Resources */,
+				48A01AE81D25F72D008B8550 /* CellHome.xib in Resources */,
 				48A01AD21D25E54B008B8550 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,6 +187,7 @@
 			files = (
 				48A01ACF1D25E54B008B8550 /* Home.m in Sources */,
 				48A01ACC1D25E54B008B8550 /* AppDelegate.m in Sources */,
+				48A01AE71D25F72D008B8550 /* CellHome.m in Sources */,
 				48A01AD51D25E54B008B8550 /* Lab05_NavC.xcdatamodeld in Sources */,
 				48A01AC91D25E54B008B8550 /* main.m in Sources */,
 			);

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CellHome.h
 //  Lab05_NavC
 //
 //  Created by Luis Diaz on 6/30/16.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CellHome.h"
 
-@interface Home : UIViewController
-
+@interface CellHome : UITableViewCell
 
 @end
-

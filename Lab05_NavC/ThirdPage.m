@@ -84,6 +84,110 @@
         }
         
     }
+    else if (self.infoEstado == 2)
+    {
+        if (self.infoMunicipio == 0)
+        {
+            self.imageMun.image = [UIImage imageNamed:@"encarnacion_de_diaz.jpg"];
+            self.LabelMun.text = @"Encarnacion de Diaz";
+            self.self.LabelDesc.text = @"Encarnación de Díaz ciudad y municipio homónimo; de la Región Altos Norte del estado de Jalisco, México. También conocido como La Chona.";
+        }
+        else if (self.infoMunicipio == 1)
+        {
+            self.imageMun.image = [UIImage imageNamed:@"jalostotitlan.jpg"];
+            self.LabelMun.text = @"Jalostotitlan";
+            self.self.LabelDesc.text = @"Jalostotitlán o Xalostotitlan (El Corazón de los Altos de Jalisco) es una ciudad y municipio de la Región Altos Sur del estado de Jalisco, México.";
+        }
+        else if (self.infoMunicipio == 2)
+        {
+            self.imageMun.image = [UIImage imageNamed:@"mazamitla.gif"];
+            self.LabelMun.text = @"Mazamitla";
+            self.self.LabelDesc.text = @"Mazamitla es un municipio y población del estado de Jalisco, México. Se localiza 124 km al sur de Guadalajara en la Región Sureste.";
+        }
+        else if (self.infoMunicipio == 3)
+        {
+            self.imageMun.image = [UIImage imageNamed:@"sanjuandeloslagos.png"];
+            self.LabelMun.text = @"San Juan de los Lagos";
+            self.self.LabelDesc.text = @"En diferentes lugares del municipio se han encontrado vestigios antiguos que hacen pensar en adoratorios y asentamientos previos a la conquista española.";
+        }
+        else if(self.infoMunicipio == 4)
+        {
+            self.imageMun.image = [UIImage imageNamed:@"tequila.jpg"];
+            self.LabelMun.text = @"Tequila";
+            self.self.LabelDesc.text = @"Es un pueblo mágico. Tequila es conocido por darle su nombre al tequila, al ser uno de los territorios donde éste se produce.";
+        }
+        
+    }
+    
+    else if (self.infoEstado == 3)
+    {
+        if (self.infoMunicipio == 0)
+        {
+            self.imageMun.image = [UIImage imageNamed:@"Axochiapan.jpg"];
+            self.LabelMun.text = @"Axochiapan";
+            self.self.LabelDesc.text = @"Según lo establecido en la matrícula de tributos de los documentos mexicas, Axochiapan es un pueblo antiguo de orígenes tlahuicas y olmecas.";
+        }
+        else if (self.infoMunicipio == 1)
+        {
+            self.imageMun.image = [UIImage imageNamed:@"Cuautla.png"];
+            self.LabelMun.text = @"Cuautla";
+            self.self.LabelDesc.text = @"Jalostotitlán o Xalostotitlan (El Corazón de los Altos de Jalisco) es una ciudad y municipio de la Región Altos Sur del estado de Jalisco, México.";
+        }
+        else if (self.infoMunicipio == 2)
+        {
+            self.imageMun.image = [UIImage imageNamed:@"Emiliano_Zapata.jpg"];
+            self.LabelMun.text = @"Emiliano Zapata";
+            self.self.LabelDesc.text = @"Desde la época colonial hasta 1840 la localidad se denominó «San Francisco Zacualpa», desde 1840 a 1930 «San Vicente Zacualpan»";
+        }
+        else if (self.infoMunicipio == 3)
+        {
+            self.imageMun.image = [UIImage imageNamed:@"Temixco.jpg"];
+            self.LabelMun.text = @"Temixco";
+            self.self.LabelDesc.text = @"Destaca la Ex Hacienda de Temixco que actualmente sirve como parque acuático. Las comunidades indígenas de Cuentepec y Tetlama.";
+        }
+        else if(self.infoMunicipio == 4)
+        {
+            self.imageMun.image = [UIImage imageNamed:@"Totolapan.png"];
+            self.LabelMun.text = @"Totolapan";
+            self.self.LabelDesc.text = @"El término Totolapan se deriva de los vocablos totoltli (ave), atl (agua) y pan (sobre, encima), lo que en conjunto quiere decir Sobre agua, gallaretas.";
+        }
+        
+    }
+    
+    else if (self.infoEstado == 4)
+    {
+        if (self.infoMunicipio == 0)
+        {
+            self.imageMun.image = [UIImage imageNamed:@"abasolo.jpg"];
+            self.LabelMun.text = @"Abasolo";
+            self.self.LabelDesc.text = @"La actividad principal de los pobladores es el comercio, destacando varios restaurantes y bares, como pequeños talleres y bloqueras.";
+        }
+        else if (self.infoMunicipio == 1)
+        {
+            self.imageMun.image = [UIImage imageNamed:@"Allende.jpg"];
+            self.LabelMun.text = @"Allende";
+            self.self.LabelDesc.text = @"Forma parte de la región citrícola. Se localiza en el sureste del Estado de Nuevo León, al pie de la Sierra Madre Oriental. ";
+        }
+        else if (self.infoMunicipio == 2)
+        {
+            self.imageMun.image = [UIImage imageNamed:@"GeneralBravo.jpg"];
+            self.LabelMun.text = @"General Bravo";
+            self.self.LabelDesc.text = @"Los sectores económicos más importantes son el ganadero, el agrícola y el comercial.";
+        }
+        else if (self.infoMunicipio == 3)
+        {
+            self.imageMun.image = [UIImage imageNamed:@"SantaCatarina.jpg"];
+            self.LabelMun.text = @"Santa Catarina";
+            self.self.LabelDesc.text = @"Santa Catarina toma su nombre en honor a la santa católica Catalina de Alejandría. Patrona de los filósofos, estudiantes, maestros y predicadores.";
+        }
+        else if(self.infoMunicipio == 4)
+        {
+            self.imageMun.image = [UIImage imageNamed:@"Villaldama.jpg"];
+            self.LabelMun.text = @"Villaldama";
+            self.self.LabelDesc.text = @"Lleva este nombre en honor a Don Juan Aldama, quien fue uno de los caudillos de la Independencia de México y abuelo de los fundadores de la actual Villa.";
+        }
+        
+    }
     
 }
 

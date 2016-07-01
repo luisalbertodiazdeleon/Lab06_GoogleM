@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		48A01AC91D25E54B008B8550 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A01AC81D25E54B008B8550 /* main.m */; };
 		48A01ACC1D25E54B008B8550 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A01ACB1D25E54B008B8550 /* AppDelegate.m */; };
-		48A01ACF1D25E54B008B8550 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A01ACE1D25E54B008B8550 /* ViewController.m */; };
+		48A01ACF1D25E54B008B8550 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A01ACE1D25E54B008B8550 /* Home.m */; };
 		48A01AD21D25E54B008B8550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A01AD01D25E54B008B8550 /* Main.storyboard */; };
 		48A01AD51D25E54B008B8550 /* Lab05_NavC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48A01AD31D25E54B008B8550 /* Lab05_NavC.xcdatamodeld */; };
 		48A01AD71D25E54B008B8550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A01AD61D25E54B008B8550 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		48A01AC81D25E54B008B8550 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48A01ACA1D25E54B008B8550 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48A01ACB1D25E54B008B8550 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		48A01ACD1D25E54B008B8550 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		48A01ACE1D25E54B008B8550 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48A01ACD1D25E54B008B8550 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		48A01ACE1D25E54B008B8550 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		48A01AD11D25E54B008B8550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48A01AD41D25E54B008B8550 /* Lab05_NavC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab05_NavC.xcdatamodel; sourceTree = "<group>"; };
 		48A01AD61D25E54B008B8550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		48A01AC61D25E54B008B8550 /* Lab05_NavC */ = {
 			isa = PBXGroup;
 			children = (
-				48A01ACA1D25E54B008B8550 /* AppDelegate.h */,
-				48A01ACB1D25E54B008B8550 /* AppDelegate.m */,
-				48A01ACD1D25E54B008B8550 /* ViewController.h */,
-				48A01ACE1D25E54B008B8550 /* ViewController.m */,
+				48A01AE21D25E5AB008B8550 /* Main */,
+				48A01AE11D25E5A2008B8550 /* Controllers */,
 				48A01AD01D25E54B008B8550 /* Main.storyboard */,
 				48A01AD61D25E54B008B8550 /* Assets.xcassets */,
 				48A01AD81D25E54B008B8550 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				48A01AC81D25E54B008B8550 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48A01AE11D25E5A2008B8550 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				48A01ACD1D25E54B008B8550 /* Home.h */,
+				48A01ACE1D25E54B008B8550 /* Home.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		48A01AE21D25E5AB008B8550 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				48A01ACA1D25E54B008B8550 /* AppDelegate.h */,
+				48A01ACB1D25E54B008B8550 /* AppDelegate.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48A01ACF1D25E54B008B8550 /* ViewController.m in Sources */,
+				48A01ACF1D25E54B008B8550 /* Home.m in Sources */,
 				48A01ACC1D25E54B008B8550 /* AppDelegate.m in Sources */,
 				48A01AD51D25E54B008B8550 /* Lab05_NavC.xcdatamodeld in Sources */,
 				48A01AC91D25E54B008B8550 /* main.m in Sources */,

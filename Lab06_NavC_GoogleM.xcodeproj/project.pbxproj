@@ -53,7 +53,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		48A01AC41D25E54B008B8550 /* Lab05_NavC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab05_NavC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48A01AC41D25E54B008B8550 /* Lab06_NavC_GoogleM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab06_NavC_GoogleM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A01AC81D25E54B008B8550 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48A01ACA1D25E54B008B8550 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		48A01ACB1D25E54B008B8550 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		48A01ABB1D25E54B008B8550 = {
 			isa = PBXGroup;
 			children = (
-				48A01AC61D25E54B008B8550 /* Lab05_NavC */,
+				48A01AC61D25E54B008B8550 /* Lab06_NavC_GoogleM */,
 				48A01AC51D25E54B008B8550 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,12 +128,12 @@
 		48A01AC51D25E54B008B8550 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				48A01AC41D25E54B008B8550 /* Lab05_NavC.app */,
+				48A01AC41D25E54B008B8550 /* Lab06_NavC_GoogleM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		48A01AC61D25E54B008B8550 /* Lab05_NavC */ = {
+		48A01AC61D25E54B008B8550 /* Lab06_NavC_GoogleM */ = {
 			isa = PBXGroup;
 			children = (
 				48A01AE91D260BB5008B8550 /* estados */,
@@ -147,6 +147,7 @@
 				48A01AD31D25E54B008B8550 /* Lab05_NavC.xcdatamodeld */,
 				48A01AC71D25E54B008B8550 /* Supporting Files */,
 			);
+			name = Lab06_NavC_GoogleM;
 			path = Lab05_NavC;
 			sourceTree = "<group>";
 		};
@@ -313,9 +314,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		48A01AC31D25E54B008B8550 /* Lab05_NavC */ = {
+		48A01AC31D25E54B008B8550 /* Lab06_NavC_GoogleM */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 48A01ADE1D25E54B008B8550 /* Build configuration list for PBXNativeTarget "Lab05_NavC" */;
+			buildConfigurationList = 48A01ADE1D25E54B008B8550 /* Build configuration list for PBXNativeTarget "Lab06_NavC_GoogleM" */;
 			buildPhases = (
 				48A01AC01D25E54B008B8550 /* Sources */,
 				48A01AC11D25E54B008B8550 /* Frameworks */,
@@ -325,9 +326,9 @@
 			);
 			dependencies = (
 			);
-			name = Lab05_NavC;
+			name = Lab06_NavC_GoogleM;
 			productName = Lab05_NavC;
-			productReference = 48A01AC41D25E54B008B8550 /* Lab05_NavC.app */;
+			productReference = 48A01AC41D25E54B008B8550 /* Lab06_NavC_GoogleM.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -344,7 +345,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 48A01ABF1D25E54B008B8550 /* Build configuration list for PBXProject "Lab05_NavC" */;
+			buildConfigurationList = 48A01ABF1D25E54B008B8550 /* Build configuration list for PBXProject "Lab06_NavC_GoogleM" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -357,7 +358,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				48A01AC31D25E54B008B8550 /* Lab05_NavC */,
+				48A01AC31D25E54B008B8550 /* Lab06_NavC_GoogleM */,
 			);
 		};
 /* End PBXProject section */
@@ -532,7 +533,7 @@
 				INFOPLIST_FILE = Lab05_NavC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Luis.Lab05-NavC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lab06_NavC_GoogleM;
 			};
 			name = Debug;
 		};
@@ -543,14 +544,14 @@
 				INFOPLIST_FILE = Lab05_NavC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Luis.Lab05-NavC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Lab06_NavC_GoogleM;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		48A01ABF1D25E54B008B8550 /* Build configuration list for PBXProject "Lab05_NavC" */ = {
+		48A01ABF1D25E54B008B8550 /* Build configuration list for PBXProject "Lab06_NavC_GoogleM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48A01ADC1D25E54B008B8550 /* Debug */,
@@ -559,13 +560,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48A01ADE1D25E54B008B8550 /* Build configuration list for PBXNativeTarget "Lab05_NavC" */ = {
+		48A01ADE1D25E54B008B8550 /* Build configuration list for PBXNativeTarget "Lab06_NavC_GoogleM" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				48A01ADF1D25E54B008B8550 /* Debug */,
 				48A01AE01D25E54B008B8550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
